@@ -10,6 +10,7 @@ public class TernaryOperator {
 			    else {
 			      System.out.println("Less than");
 			    }
-			  }
+	
+	}
 	}
 
