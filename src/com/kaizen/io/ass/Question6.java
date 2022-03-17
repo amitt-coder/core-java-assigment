@@ -10,10 +10,6 @@ public class Question6 {
 		int hour = date.getHours();
 		int min =date.getMinutes();
 		
-		System.out.printf("Toatal minutes: " + (hour*60+min) , date);
-		
-		
-				
-		
-	}
+		System.out.printf("Total minutes: " + (hour*60+min) , date);
+		}
 }
