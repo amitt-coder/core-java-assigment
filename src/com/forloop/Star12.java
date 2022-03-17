@@ -1,4 +1,4 @@
-package com.ForLoop;
+package com.forloop;
 
 public class Star12 {
 	public static void main(String[] args) {
