@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.arrays;
 
 public class Argument {
 	public static void main(String[] args) {

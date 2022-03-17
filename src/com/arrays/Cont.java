@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.arrays;
 
 public class Cont {
 	public static void main(Argument[] args) {

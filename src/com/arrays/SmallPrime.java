@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.arrays;
 
 public class SmallPrime {
 	public static void main(Argument[] args) {

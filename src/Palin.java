@@ -6,7 +6,10 @@ public class Palin {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter a number ");
 		int n = in.nextInt();
+		int rev;
+		rev = n ;
 		
 		
+		  
 	}
 }
