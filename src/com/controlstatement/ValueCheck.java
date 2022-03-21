@@ -1,4 +1,4 @@
-package com.ControlStatement;
+package com.controlstatement;
 
 public class ValueCheck {
 	public static void main(String[] args) {

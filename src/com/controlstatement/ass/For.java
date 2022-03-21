@@ -1,4 +1,4 @@
-package com.ControlStatement.ass;
+package com.controlstatement.ass;
 
 public class For {
 	public static void main(String[] args) {

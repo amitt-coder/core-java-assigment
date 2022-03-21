@@ -1,4 +1,4 @@
-package com.ControlStatement.ass;
+package com.controlstatement.ass;
 
 public class Equal {
 	public static void main(String[] args) {
