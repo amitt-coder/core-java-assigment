@@ -18,7 +18,7 @@ public class Bike {
 	
 	public static void main(String[] args) {
 		Bike bike = new Bike();
-		bike.name = "Hero";
+ 		bike.name = "Hero";
 		bike.color = "Black";
 		bike.model = "Deluxe";
 		bike.describeBike();
