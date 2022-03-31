@@ -18,16 +18,16 @@ public class Car {
 		// TODO Auto-generated method stub
 		Car car = new Car();
 		car.colour = "Red";
-		car.manufacturername = "Ford";
+ 		 car.manufacturername = "Ford";
 		car.model = "Mustang";
 		car.describeCar();
 		
 		
 		Car toyota = new Car("Blue", "Toyota", "Prius");
-		toyota.describeCar();
+		 toyota.describeCar();	
 		
 		
-		Car Wolkswagen = new Car("Green", "Wolkswagen","Golf");
+		 Car Wolkswagen = new Car("Green", "Wolkswagen","Golf");
 		Wolkswagen.describeCar();
 
 	}

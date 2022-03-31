@@ -7,6 +7,7 @@ public class Bike {
 	String model;
 	
 	public Bike() {
+		
 		System.out.println(" Non Parameterise ");
 	}
 	public Bike(String name, String color, String model) {

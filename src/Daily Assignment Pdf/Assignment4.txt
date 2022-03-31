@@ -1,0 +1,9 @@
+			Day  4   Assignment
+
+Q.1   What all data types are allowed in the expression of the switch
+statement?
+Ans.    A switch  allowed  with the  byte,  short  char  and int  primitive  data types.
+Q.2    Why does the switch statement have better performance over the “if”
+statement?
+Ans.  A switch statement  works  much faster  than  equivalent  if-else  ladder.its  because the 
+           compiler  generates  a  jump  table  for  a  switch  during  compilation.	

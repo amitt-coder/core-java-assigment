@@ -13,7 +13,7 @@ public class StaticBlock {
 	}
 	
 	public StaticBlock(int num, String add, String name) {
-		this.num = num;
+		this.num   = num;
 		this.name = name;
 		this.add = add;
 		count++;

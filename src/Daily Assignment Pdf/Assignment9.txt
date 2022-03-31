@@ -1,0 +1,14 @@
+		Day 9  Assignment
+
+Q.1  What are the three types of variables in Java?
+Ans. The three types of variable in java
+         1        Local Variable
+          2       Instance Variable
+          3       Static  Variable.
+Q.2   How many copies of a static variable are kept in the JVM?
+Ans.  One copy of a static variable are kept in the jvm.
+Q.3  What is the other name given to static variables?
+Ans. Class variable the other name given to static variables.
+Q.4   Can we change the value of static variables in the instance methods of the class?
+Ans. The value change of a static variables in the instance methods of the class.
+Q.5  

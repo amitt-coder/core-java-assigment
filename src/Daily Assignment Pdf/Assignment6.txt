@@ -1,0 +1,8 @@
+			Day 6  Assignment
+Q.1  What are the different conversion characters available?
+Ans. The different conversion characters available  
+	s  formats strings.
+	d  formats  decimal  integers.
+	f  formats  floating- point numbers.
+	t  formate  date/time  values.
+	b  for boolean.

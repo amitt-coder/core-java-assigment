@@ -2,7 +2,7 @@ package com.staticc;
 
 public class StaticVar {
 	
-	int id ;
+	 int id ;
 	static String name= "amit";
 	
 	//Construtor

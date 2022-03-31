@@ -1,0 +1,42 @@
+Day 3  Assignment
+
+Q.1  What are the different types of operators available in Java?
+Ans.The different types of operators available in java
+ Arithmetic operators
+ Assignment Operators
+ Relational Operators
+ Bitwise Operators
+ Logical operators
+ Misc Operators
+Q.2 What are the different types of Arithmetic operators available in Java?
+Ans. Types of Arithmetic operators 
+Addition Operator(+)
+Subtraction Operator(-)
+Multipication Operator(*)
+Division Operator(/)
+Modulus Operator(%).
+
+Q.3  How does “strictfp” ensure portability in Java?
+Ans.Strictfb keyword ensures the consistency across the platform.
+
+Q,4  At what levels can you apply “strictfp”?
+Ans.  Strictfb can be applied to class,method or on interface but cannot be applied to abstract methods,variable or on constructor.
+
+Q.5  What are postfix and prefix, increment and decrement(--/++)  operators?
+Ans.  Increment Operator(prefix) - The increment operator  is used to increment the value of 	a variable in an expression.
+           Decrement Operator(postfix) - The decrement operator is used to decrement the value 
+           of   a  variable in  an  expression.
+Q.6   What are logical operators ( &&, ||)  ?
+Ans.     The logical operator are return true  if both  operands are true and return  false 	otherwise.
+Q.7   What are the four rules of binary operations?
+Ans.   The four rules of binary operation is  a  adding,subtracting,multiplying  and  dividing.
+Q.8   What is narrow/explicit/down type casting and what is  widening/implicit/up type casting?
+Ans.  Narrow/Explicit/Down Type Casting -  Converting  a  higher data type into a lower one is    
+            called narrowing type casting.
+            Widening/Implicit/Up Type  -   Converting a lower data type into higher one is  called     
+                widening type casting.
+
+Q.9    What is harm in doing down casting  ?
+Ans.   Down Casting means the typecasting   of   a   parent   object   to  a  child  object. down casting  cannot be  implicit.
+		
+	

@@ -1,0 +1,78 @@
+Day 1, Assignment
+
+1.What do we mean when we say Java is architecture neutral?
+Answer : The Code can be complied on many processors, using the java runtime system.
+2. What do we mean when we say Java is portable?
+Answer : The sizes of primitive data types are Fixed in java unlike C & C++, because of this arithmetic operations gives same result.
+3. Do setup of Java on your system, set PATH and JAVA_HOME environment variables? 
+Answer : 1.Go to Windows icon.
+                 2.Go to Control Panel > System Settings > Environment variable Settings > Click on        PATH and paste your jdk/bin location.
+3.To Set JAVA_HOME > new > Enter Variable name : JAVA_HOME >  Enter Values as your jdk folder location.
+4. What is a LTS release?
+Answer : LTS stands for Long Term Support by java, it’s a version of java which will get free updates and bug fixes and is used for long run cause it changes every 8 year and every 6 month java release its new version but those are not LTS.
+5. What is the current version of Java?
+Answer :  Current version is Java SE 18 v 18.x.x,March,2022. 
+8. What is a Java compiler and what is its function?
+Answer : Java Compiler Complies the Java Source code file .java file into binary format knows as byte code which is .class file.
+Bytecode is translated into O.S. specific JVM into platform specific machine code
+Class loader : in JVM load the binary representation of classes into RAM.
+Execution Engine : JVM executes bytecode and generate OS specific machine instructions,these are executed by CPU.
+9. What are the main two components of JVM and what are their functions?
+Answer :  Bytecode is translated in Operating System specified JVM which is a platform specific machine code.
+Bytecode is translated into O.S. specific JVM into platform specific machine code
+Class loader : in JVM load the binary representation of classes into RAM.
+Execution Engine : JVM executes bytecode and generate OS specific machine instructions,these are executed by CPU
+Q.10  What is the difference between JVM, JRE and JDK?
+Ans.   The difference between JVM,JRE and JDK  
+JVM - Jvm is Java Virtual Machine.Jvm is a engine that provides runtime environment to drive the java code or application.It convert java bytecode into machine language.Jvm is a part of java runtime environment(jre).
+JRE-Jre is Java Runtime Enviroment.The software for consumers who want to run java program.
+JDK-Jdk is Java Development Kit.The jdk is development enviroment for building application, applets and components using the java programming language.
+Q.11 What are Java doc comments?
+Ans. Java doc comments are multiline comments that are placed before class,field or method declaration.
+Q.12 .What are code comments?
+Ans. A programmer readable exaplanation or annotation in the source code of a computer program.
+Q.13 What is difference between Method Parameter and Method Arguments?
+Ans. Difference between Method Parameter and Method Arguments
+Method Parameter - Specifies the variable declared in the method defination.
+Method Arguments - Specifies the data passed to the method parameter.
+Q. 14   What is a just in time(JIT) compiler how it works?
+Ans.  Just in time compiler that improves the perfomance of java application by compiling platform-neutral java bytecode into native machine code at run time.
+Q.15 Why the languages have data types?
+Ans. To represent diffrent type of data we needed data types.
+Q.16 What is the broad 2 categories of data types in Java?
+Ans. Two categories of data types 
+1  Primitive data types
+2  Non-primitive data types
+Q.17 What are 4 classification of data types in Java under Premitives?
+Ans.  Data type of Four Classification
+1  Integer
+2 Float Number
+3 Character
+4 Byte	
+Q.18 Why we say that Java is strongly typed language?
+Ans. Java is a strongly typed programming language because every variable must be declared with a data type.
+Q.19 What are sub-categories of Integer data types also mention the size?
+Ans. Sub-categories of integer data  four types
+Data Type                           Size				Range
+short                                     2 bytes				-32,768 to +32,767
+int                                         4 bytes				-2,147,483,6482,147,483,647
+Long                                      4 bytes			      -2,147,483,648      2,147,483,647	
+byte                                       1 byte                                      -128 to 127
+
+Q.20   Does Java provide Unsigned integers? How do we achieve Unsigned feature in 
+Java?
+Ans.  Java does not have a datatype for unsigned integers. You can define a long instead of an int if you need to store large values. You can also use a signed integer as if it were unsigned.
+
+Q.21  . How many characters can Unicode-16 accomodate?
+Ans. It is 65,536 characters as 16 bit architecture.
+Q.22   What two problems Unicode solves?
+Ans. Two problems unicode solve
+First a particular code value corresponds to different letters in the different encoding schemes.
+Second The encoding for language with large character sets have variable length .Some common character are unicoded as single bytes other require two or more bytes.
+Q.23 Write five valid and five invalid variable names?
+Ans.  Five Valid variable names
+	 id,name,address,city,x.
+	Five Invalid variable names
+	12amit,/amit,int,a~,total#.
+	
+	

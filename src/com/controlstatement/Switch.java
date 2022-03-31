@@ -5,7 +5,7 @@ public class Switch {
 		
 		int day= 2;
 		
-		switch(day) {
+		switch(2) {
 		case 1:
 			System.out.println("Monday");
 			break;

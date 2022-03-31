@@ -1,0 +1,42 @@
+			Day 11 Assigment
+
+Q.1  What is inheritance? Explain with examples?
+Ans.  Inheritance in java is a mechanism in which one object acquires all the properties and behavior of the parent class.Example a bicycle inherit the MountainBike.
+	Types of inheritance
+          1      Single Inheritance
+          2	  Multilevel Inheritance
+          3      Multiple Inheritance
+          4       Hierarchical Inheritance
+          5        Hybrid  Inheritance.
+
+Q.2  Why do we need to use inheritance?
+Ans. We need to use inheritance in java
+         We can reuse the code from the base class.
+        For method overriding.
+
+Q.3  What is the keyword used to achieve Inheritance in Java?
+Ans. Extends is the keyword used to achieve inheritance in java.
+
+Q.4   What is the use of the “super” keyword?
+Ans. It is use to superclass methods and the access the superclass constructor.
+
+Q.5   How can a sub-class call a constructor of the super class?
+Ans. Using super keyword a sub class call a constructor of the super class.
+			
+Q.6  What is method overriding?
+Ans. If sub class has the same method as a declared in the parent class.It is a method overriding.
+
+Q.7 Is multiple inheritance supported in Java?
+Ans.Multiple inheritance is not supported java a case where class B extends class A and Class C and both class A and C have the same method display().Now java compiler cannot decide, which display method it should inherit.
+
+Q.8 What is “Dynamic Binding”?
+Ans. Dynamic binding in java is concept by which can perform as single action in different ways.Is also known as runtime polymorphism.
+
+Q.9 What is “Overloading resolution”, how it is done?
+Ans.The process of compiler trying to resolve the method call from given overloaded method defination is called overloading resolution.	
+
+Q.10 Which keyword is used to prevent inheritance?
+Ans. final keyword is used to prevent inheritance.
+
+Q.11 Can a final method be overridden?
+Ans.No, for this reason a method must be declared as a final only when we re sure that it is complete.

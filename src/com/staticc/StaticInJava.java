@@ -36,16 +36,22 @@ public class StaticInJava {
 		StaticInJava obj1 = new StaticInJava(102, " julee");
 		
 		obj.show();
+		
 		System.out.println("**********");
+		
 		StaticInJava.college = "orirntal";
+		
 		obj.show();
+		
 		System.out.println("***********");
+		
 		obj1.show();
 		
 		StaticInJava.print();
 		
 		
 		double d = Math.pow(2, 2);
+		
 		System.out.println(d);
 	
 	}

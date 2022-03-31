@@ -1,0 +1,57 @@
+				Day 7  Assignment
+
+Q.1 What is the difference between Procedural and Object oriented  programming?
+Ans.  The difference between Procedural and Object oriented  programming
+	Procedural Oriented Programming  	Object oriented  programming
+	Procedural programming is based on		Object oriented programming is based 
+	unreal world					on real world
+	
+Q.2   What were the problems with Procedural programming?
+Ans.   A major disadvantage of using procedural programming as a method of programming is    	the inability to reuse code thoughtout the program.
+Q.3    Define class?
+Ans.   A class is the template or blueprint from which object are made.Class is a logical entity.
+Q.4    Define object?
+Ans.   Object is an instance of a class which has state and behaviour.Object is a physical entity.
+Q.5   . What is the difference between the class and object and give a real world example of 	each?
+Ans.   Real world example of class and object in java
+	Class- Human   Object- Man,Woman
+	Class-Mobile     Object-Samsung,iPhone.
+Q.6  Out of class and object which has physical existence and which is logical entity?
+Ans.  A class is a logical entity and object is a physical entity.
+Q.7   What do you mean by “state”, “behavior” and “identity” with respect of  Object?
+Ans.  Characteristics of objects
+         State - Represent the data of an object.
+         Behavior -  Represent the behavior of an object such as deposit,withdraw etc.
+         Identity -  It is used internally by the jvm to identify each object uniquely.
+Q.8  What are “class members” in terms of class?
+Ans.  The methods and variables defined within a class are called members of the class.
+Q.9  What is a constructor?
+Ans. A constructor in Java is a special method that is used to initialize objects.
+Q.10  What is the return type of constructor?
+Ans.    A constructor has no return value
+Q.11  What is a parameterized constructor?
+Ans.  The parameterized constructors are the constructors having a specific number of 	arguments to be passed.
+Q.12  What is a default no argument constructor?
+  Ans. A constructor that has no parameter is known as the default constructor. 
+Q.13  Is it true that a class gets no-argument constructor by default only when there is no other parameterized constructor defined?
+Ans.  A default constructor is automatically created only when you do not define any   	constructor yourself.
+Q.14   What is a method, what is the return type and parameters of a  method?
+Ans.  Type specifies the type of data returned by the method.If the method does not return a 	value, its return type must be void. The parameter-list is a sequence of type and 	identifier pairs separated by commas.
+Q.15  What do we mean by “void” return type. List all the methods that return “void” in Employee class?
+Ans.     The void keyword specifies that the function.All the methods that return void in 
+             name,salary and age.
+Q.16  What is “this” keyword used for?
+Ans. The most common use of the this keywords is to eliminate the confusion between class      	attributes and parameter with the same name.
+Q.17  What are different access modifiers that can be applied to fields and methods of a    	class?
+Ans.   Classes,fields,constructors and methods can have one of four different java access   	modifiers    private,protected,public,no modifier 
+Q.18  Describe all the access modifiers?
+Ans.  You can use one of the following access modifiers.
+         Private - External classes cannot access the member.
+         Protected - The access level of a protected modifier is within the package and outside 	the package through child class.If you do not make the child public it cannot be 	accessed from outside the package.
+         Public - All classes in the application can access the member
+         No modifier - All classes within the package can access this member.	
+Q.19  What is the purpose of private methods?
+Ans.  When to use we may wish to break up the code for a computation into separete helper   	methods .Typically these helper methods should not be part of the public   	interface .Such methods are best implemented private.put keyword private in the   	signature of the method.
+Q.20   Which access modifier would you use to protect your fields/data?
+Ans.    Protected access modifier  use to protect  fields/data.
+ 	

@@ -22,15 +22,18 @@ public class Foreach2 {
 	
 	
 	
+//	
+//	int [] kaizen = {1,2,3,4,5,6,7};
+//	for( int Divergent : kaizen) {
+//		System.out.println(Divergent);
+//	}
 	
-	int [] kaizen = {1,2,3,4,5,6,7};
-	for( int Divergent : kaizen) {
-		System.out.println(Divergent);
+	
+	String [] name = {"amit","bhupen"};
+	
+	for(String i : name) {
+		System.out.println(i); 
 	}
-	
-	
-	
-	
 	
 	
 	

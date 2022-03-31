@@ -1,0 +1,10 @@
+			Day 8  Assignment
+
+Q.1  What is encapsulation?
+Ans. Encapulation is simply cobining data and behavior in one package and hiding the 	implementation details from the users  of the object.
+Q.2   What are various types of class relationships, explain with example?
+Ans. Two types of class relationships  
+         Aggregation - A relationship between two classes that is best described as a has-a  	            		relationship.
+        Encapsulation -Encapulation is simply cobining data and behavior in one package and 			hiding the implementation details from the users  of the object.
+
+Q.3            		 
