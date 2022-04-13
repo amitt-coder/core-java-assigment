@@ -1,13 +1,15 @@
+package com.main;
 
-public class Que1 {
+public class Even {
+	
 	public static void main(String[] args) {
 		
-		int n = 101;
+		int n = 5;
 		
 		if(n%2==0) {
 			System.out.println("Even number");
 		} else {
-			System.out.println("Odd number");
+			System.out.println("odd number");
 		}
 	}
 }

@@ -4,7 +4,7 @@ public class ArrayTry {
 	
 	public static void main(String[] args) {
 		
-		try {
+		try { 
 		
 		int [] arr = {1,2,3,4,5};
 		

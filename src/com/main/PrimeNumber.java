@@ -1,3 +1,4 @@
+package com.main;
  import java.util.Scanner;
 
 public class PrimeNumber {
@@ -18,7 +19,7 @@ public class PrimeNumber {
 		}
 		public static void main(String[] args) {
 	PrimeNumber obj = new PrimeNumber();
-	obj.isPrimeNumber(13);
+	obj.isPrimeNumber(2);
 	
 	}
 }

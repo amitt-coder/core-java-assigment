@@ -7,5 +7,5 @@ public class AbstractMethod {
 		//obj = new Splendar();
 		obj.print();
 		obj.show();
-	}
-}
+	}  
+}      

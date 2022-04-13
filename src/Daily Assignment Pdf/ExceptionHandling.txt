@@ -1,0 +1,97 @@
+				Assignment
+Exception Handling
+
+Q.1 What is an Exception in Java?
+Ans. In java exception is an  event in built that disrupts the normal flow of the program.
+Q.2 What is the super or base class of all exceptions in Java?    
+Ans. The throwable class is the super or base class of all exception in java.
+Q.3 What is the super class for error and exception classes in Java?.    
+Ans. The throwable class is the super class for error and exception classes.
+Q.4 What are the types of exceptions in Java API?   
+Ans. There are  two types of exception in java
+   1   Check Exception.
+   2   Uncheck Exception.   
+Q.5  Why does an exception occur in the program?
+Ans.  An exception is an event which occurs during the execution of a program that disrupts 	the normal flow of the program instruction.
+Q.6   What is exception handling in Java?
+Ans.  Exception handling in java one of the effective  means to handle the runtime error so that the regular flow of the application can be preserved.
+Q.7 What is exception handler in Java?
+Ans. The code that catches the exception thrown by JVM is called exception handler in 	java.  
+Q.8 What is the advantage of using exception handling in Java?
+Ans. Advantage of using execption handling
+1        By this we can identify the type of errors
+2        By this we can write the error handling code separately from the normal code.
+Q.9  Explain the Java exception hierarchy?
+Ans.  All the predefined exception supported by are organized  as subclasses in a hierarchy 	under the throwable class.
+Q.10  What does the JVM do when an exception occurs in a program?
+Ans.  The jvm is responsible for finding an exception handler to process the exception object.
+Q.11  Do checked exceptions occur at compile time?
+Ans.  Yes checked exception occur at compile time.
+Q.12  .What happens when a runtime exception occurs in a program?
+Ans.The java compiler generates an error message and terminates the program abnormally.
+Q.13  What are the keywords to handle an exception in Java?  
+Ans.   Java exception handling is managed via five keyword
+           try,catch,throw,throws,finally.
+Q.14  What is try block in Java?
+Ans. The try statement allow you to define a block of code to be tested for errors while it is 	being executed.
+Q.15  What are the three possible forms of try block?
+Ans.  The three possible forms of try block
+    1        try-catch -  A try block is always  followed by one or more catch block.
+     2        try-finally - A try block followed by a finally block.
+     3        try-catch-finally - A try block followed by one or more catch blocks followed by finally 	block.
+Q.16  Can we write statements between try block and catch block?
+Ans.  No we cannot write statements between try block and catch block.
+Q.17  . What is a final block in Java?
+Ans. Java finally block is a block used to execute important code such as closing the  	connection, etc.Java finally block is always executed whether an exception is handled  	or not.
+Q.18  What is the use of finally block in Java?
+Ans. finally block in Java can be used to put "cleanup" code such as closing a file, closing      	connection, etc.
+Q.19  In what scenarios or conditions, a finally block will not be executed?
+Ans.  When the system.exit() method is called in the try block before the execution of finally 	block,finally block will not be executed.
+Q.20 What is the importance of finally block in exception handling?
+Ans. You can clean up any resources that are allocated in a try block and you can run code 	even if an expression occurs in the try block.
+Q.21   What is the difference between finally block and finalize() method?
+Ans.  Finally block is executed as soon as try-catch block is executed .its execution is not   	dependant on the execution .Finalize method is executed just before the object is 	destroyed.
+Q.22 . What is "throw" keyword in Java?
+Ans.  The throw keyword in Java is used for explicitly throwing a single exception. 
+Q.23  How do we throw an exception in Java?
+Ans. The throw keyword is used for throwing exception manually in java program.
+Q.24 Can we throw multiple exceptions in one throw statement?
+Ans.  No we cannot throw multiple exceptions in one throw statement.
+Q.25  Can we use throw statement inside static block?
+Ans.  we cannot use throw statement inside the static block.
+Q.26  Explain the throws clause in Java?
+Ans.  The java throws keyword is used to declare an exception.
+Q.27  What is the difference between throw and throws in Java?
+Ans.  The difference between throw and throws in java 
+         The throws keyword is used  to declare which exception can be throw  from a method
+          while the throw keywod is used to explicitly throw an exception within a method or    	block or code.
+	Throw we are allowed to throw only one exception at a time while we can declare 	multiple exception using throws keyword.
+Q.28 . Can we re-throw an Exception in Java?
+Ans.  Sometimes we may need to rethrow an exception in java .If a catch block cannot handle 
+           the particular exception it has caught  we can rethrow the exception.
+Q.29  What is custom or user-defined exception in Java?
+Ans.  we can create our own exception that are derived classes of the exception class.creating        	our own exception is known as custom exception.
+Q.30   What is a chained exception in java?
+Ans.  Chained exception help to identify a situation in which one exception causes another
+          exception in an application.
+Q.31   What is Throwable in Java?
+Ans.   The throwable class is the superclass of all errors and exceptions in java language.
+Q.32 What are the methods provided by Throwable class in Java?
+Ans.  Java throwable class provides methods  getMessage(),getSuppressed(),getStackTrace(),
+           fillInStackTrace(),getLocalizedMessage(),initCause(),getCause(),printStackTrace().
+Q.33  What is an error in Java? What are the types of errors in Java programming?
+ Ans.  Error represent a problem that cannot be solved.the types of error in java programming
+           compile-time error,runtime-error,logical error.
+Q.34   What is the difference between error and exception in Java?
+Ans.   The difference between error and exception in java
+             main difference error cannot be solved and exception can be solve.
+Q.35   State the difference between runtime error and syntax error?
+Ans. Syntax error are static error that can be detected by the compiler.
+           Runtime error are dynamic error that cannot be detected by the compiler.
+Q.36  What is the difference between catch block and finally block?
+Ans.  The catch block is only executed if an exception is thrown in the try block.
+           The finally block is executed always after the try block if an exception is thrown or not.
+Q.37  Can a catch or finally block throw an exception?
+Ans.  No you cannot throw the exception and also catch it in the same method.
+Q.38  Can we throw exceptions explicitly or manually?
+Ans. we throw exceptions are explicitly.    	 
