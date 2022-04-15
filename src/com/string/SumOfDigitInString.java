@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class SumOfDigitInString {
 	
-	
 	public static int sumOfdigit(String number) {
 		
 		int sum =0;
@@ -14,16 +13,14 @@ public class SumOfDigitInString {
 		char ch = number.charAt(i);
 		
 		if(Character.isDigit(ch)) {
-			
-			
+		
 		int n = Character.getNumericValue(ch);
 		
-		sum = sum+n ;
+		sum = sum + n ;
 		}
-		}
+	}
 		return sum;
 	}
-	
 	public static void main(String[] args) {
 		
 		String str = null;
